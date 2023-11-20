@@ -1,0 +1,122 @@
+.usercard_left {
+  position: relative;
+  width: 300px;
+  min-height: 180px;
+  display: flex;
+  margin-left: 20px;
+  border-radius: 30px;
+  background: #5e5e5e82 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 4px 0px #00000040;
+  mix-blend-mode: normal;
+  border: 1px solid #595959;
+  /* opacity: 0.4; */
+  backdrop-filter: blur(20px);
+  cursor: pointer;
+}
+
+.usercard_left > div:nth-of-type(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.usercard_left > div:nth-of-type(2) {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  height: 25px;
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.usercard_left > div > span {
+  display: flex;
+  margin-left: 20px;
+  color: rgba(255, 255, 255, 0.644);
+}
+
+.usercard_left > div > span:nth-of-type(1) > p {
+  color: white;
+  opacity: 1;
+}
+.usercard_left > div > span:nth-of-type(2) > p {
+  color: white;
+  opacity: 1;
+  text-transform: capitalize;
+}
+.usercard_left > div > span:nth-of-type(3) > p {
+  color: orange;
+  opacity: 1;
+}
+.usercard_left > div > span:nth-of-type(4) > p {
+  color: #36a546cc;
+  opacity: 1;
+  text-transform: capitalize;
+}
+
+/* for right card */
+
+.usercard_right {
+  position: relative;
+  width: 300px;
+  min-height: 180px;
+  display: flex;
+  margin-left: 35px;
+  border-radius: 30px;
+  background: #5e5e5e82 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 4px 0px #00000040;
+  mix-blend-mode: normal;
+  border: 1px solid #595959;
+  backdrop-filter: blur(2px);
+  cursor: pointer;
+}
+
+.usercard_right > div:nth-of-type(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.usercard_right > div:nth-of-type(2) {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  height: 25px;
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.usercard_right > div > span {
+  display: flex;
+  margin-left: 20px;
+  color: rgba(255, 255, 255, 0.644);
+}
+
+.usercard_right > div > span:nth-of-type(1) > p {
+  color: white;
+  opacity: 1;
+}
+.usercard_right > div > span:nth-of-type(2) > p {
+  color: white;
+  opacity: 1;
+  text-transform: capitalize;
+}
+.usercard_right > div > span:nth-of-type(3) > p {
+  color: orange;
+  opacity: 1;
+}
+.usercard_right > div > span:nth-of-type(4) > p {
+  color: #36a546cc;
+  opacity: 1;
+  text-transform: capitalize;
+}

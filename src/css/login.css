@@ -1,0 +1,217 @@
+.login_container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 360px;
+  height: 800px;
+  border-radius: 28px;
+  background-color: black;
+  color: white;
+}
+
+.login_container > .login_image {
+  position: absolute;
+  top: 160px;
+  /* left: 134px; */
+  width: 90px;
+  height: 90px;
+  background: transparent url("../Assets//Group\ 3.png") 0% 0% no-repeat
+    padding-box;
+  mix-blend-mode: normal;
+  opacity: 1;
+}
+
+.login_container > p {
+  position: absolute;
+  top: 267px;
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  font: normal normal normal 16px/21px Mulish;
+  letter-spacing: 0.02px;
+  color: #36a546cc;
+  opacity: 1;
+  /* border: 1px solid red; */
+}
+
+.login_container > input:nth-of-type(1) {
+  position: absolute;
+  top: 336px;
+  width: 238px;
+  height: 42px;
+  background: #1f191966 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 3px #fffdfd40, 3px 3px 3px #4a494947;
+  mix-blend-mode: normal;
+  opacity: 1;
+  border-radius: 30px;
+  outline: none;
+  color: white;
+  border: none;
+  text-indent: 15px;
+}
+
+.login_container > input:nth-of-type(2) {
+  position: absolute;
+  top: 403px;
+  width: 238px;
+  height: 42px;
+  background: #1f191966 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 3px #fffdfd40, 3px 3px 3px #4a494947;
+  mix-blend-mode: normal;
+  opacity: 1;
+  border-radius: 30px;
+  outline: none;
+  color: white;
+  border: none;
+  text-indent: 15px;
+}
+
+.login_container > button {
+  position: absolute;
+  top: 492px;
+  width: 238px;
+  height: 42px;
+  background: transparent
+    linear-gradient(180deg, #00ff2580 0%, #000000 100%, #36a54680 100%) 0% 0%
+    no-repeat padding-box;
+  mix-blend-mode: normal;
+  border: 2px solid #8cff0026;
+  border-radius: 30px;
+  opacity: 1;
+  text-align: center;
+  font: normal normal bold 16px/21px Mulish;
+  letter-spacing: 0.02px;
+  color: #ffffff8c;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.login_container > p:nth-of-type(2) {
+  position: absolute;
+  top: 560px;
+  width: 100%;
+  height: 19px;
+  text-align: center;
+  font: normal normal normal 15px/20px Mulish;
+  letter-spacing: 0.02px;
+  color: #36a546;
+  opacity: 1;
+}
+
+@media screen and (width:412px) {
+  .login_container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 412px;
+    height: 914px;
+    border-radius: 28px;
+    background-color: black;
+    color: white;
+  }
+
+  .login_container > .login_image {
+    position: absolute;
+    top: 160px;
+    /* left: 134px; */
+    width: 180px;
+    height: 180px;
+    background: transparent url("../Assets/Group\ 3@2x.png") 0% 0% no-repeat
+      padding-box;
+    mix-blend-mode: normal;
+    opacity: 1;
+  }
+
+  .login_container > p {
+    position: absolute;
+    top: 357px;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    font: normal normal normal 19px/21px Mulish;
+    letter-spacing: 0.02px;
+    color: #36a546cc;
+    /* border: 1px solid red; */
+    opacity: 1;
+  }
+
+  .login_container > input:nth-of-type(1) {
+    position: absolute;
+    top: 416px;
+    width: 248px;
+    height: 47px;
+    background: #1f191966 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 3px 3px #fffdfd40, 3px 3px 3px #4a494947;
+    mix-blend-mode: normal;
+    opacity: 1;
+    border-radius: 30px;
+    outline: none;
+    color: white;
+    border: none;
+    text-indent: 15px;
+  }
+  
+  .login_container > input:nth-of-type(2) {
+    position: absolute;
+    top: 483px;
+    width: 248px;
+    height: 47px;
+    background: #1f191966 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 3px 3px #fffdfd40, 3px 3px 3px #4a494947;
+    mix-blend-mode: normal;
+    opacity: 1;
+    border-radius: 30px;
+    outline: none;
+    color: white;
+    border: none;
+    text-indent: 15px;
+  }
+
+  .login_container > button {
+    position: absolute;
+    top: 552px;
+    width: 248px;
+    height: 47px;
+    background: transparent
+      linear-gradient(180deg, #00ff2580 0%, #000000 100%, #36a54680 100%) 0% 0%
+      no-repeat padding-box;
+    mix-blend-mode: normal;
+    border: 2px solid #8cff0026;
+    border-radius: 30px;
+    opacity: 1;
+    text-align: center;
+    font: normal normal bold 16px/21px Mulish;
+    letter-spacing: 0.02px;
+    color: #ffffff8c;
+    opacity: 1;
+  }
+  
+  .login_container > p:nth-of-type(2) {
+    position: absolute;
+    top: 620px;
+    width: 143px;
+    height: 19px;
+    text-align: center;
+    font: normal normal normal 15px/20px Mulish;
+    letter-spacing: 0.02px;
+    color: #36a546;
+    opacity: 1;
+  }
+}
+
+@media screen and (width:390px) {
+  .login_container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 390px;
+    height: 834px;
+    border-radius: 28px;
+    background-color: black;
+    color: white;
+  }
+  
+}
